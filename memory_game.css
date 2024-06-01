@@ -1,0 +1,41 @@
+
+#memory_game_first_div{
+  border-bottom: 1px solid #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: fit-content;
+  padding: 5px;
+}
+#memory_game_root_div{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 295px;
+  padding: 10px;
+  height: fit-content;
+  
+}
+#memory_game_root_div img{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  padding: 2px;
+  cursor: pointer;
+}
+#memory_game_reset_div{
+  text-align: center;
+  width: 100%;
+}
+#memory_game_level_div{
+  border-top: 1px solid #000;
+  text-align: center;
+  padding-top: 5px;
+  
+  width: 100%;
+}
+
